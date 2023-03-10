@@ -1,7 +1,7 @@
-package me.leui.jwttutorial.entity;
+package me.leui.jwttutorial.entity.users;
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.*;
+import me.leui.jwttutorial.entity.authority.Authority;
 
 import javax.persistence.*;
 import java.util.Set;

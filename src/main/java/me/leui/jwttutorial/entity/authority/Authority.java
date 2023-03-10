@@ -1,4 +1,4 @@
-package me.leui.jwttutorial.entity;
+package me.leui.jwttutorial.entity.authority;
 
 import lombok.*;
 
