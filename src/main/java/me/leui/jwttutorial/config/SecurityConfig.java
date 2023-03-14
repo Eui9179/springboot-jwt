@@ -63,7 +63,7 @@ public class SecurityConfig {
                 .authorizeHttpRequests()
                 .antMatchers("api/hello", "/api/authenticate", "/api/signup").permitAll()
                 .requestMatchers(PathRequest.toH2Console()).permitAll()
-                .anyRequest().authenticated()
+                .anyRequest().permitAll()
 
                 .and()
                 .apply(new JwtSecurityConfig(tokenProvider));
